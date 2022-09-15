@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Alegreya;
+    src: url("/assets/fonts/Alegreya-Black.woff") format("woff");
+}
+
+.title-sus {
+    color: #01545D;
+    font-weight: 700;
+    font-family: Alegreya;
+    font-size: 34px;
+}
+
+.title-ul {
+    color: #01545D;
+    font-weight: 600;
+    text-align: start;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.li-text {
+    list-style: none;
+    text-align: start;
+    margin-left: -30px;
+    font-size: 21px;
+    color: #4a4a4a;
+}
+
+.li-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: start;
+    margin-left: -30px;
+    font-size: 21px;
+    color: #4a4a4a;
+}
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 270px;
+    width: 100%;
+    background: #FFFBF6;
+}
+
+.btn-info{
+    background-color: #01545D;
+    color: #fff;
+}
+
+.btn-info:hover{
+    background-color: #01545D;
+    color: #fff;
+}
+
+
+.a-footer{
+text-decoration: none;
+color: #01545D;
+font-size: 18px;
+margin: 10px;
+}
+
+.input-email {
+    margin: 10px;
+    padding: 20px;
+    border: 0.4px solid #8A817C;
+}
+
+.boton-envio {
+    background-color: #01545D;
+    color: #fff;
+    font-size: 16px;
+    margin: 10px;
+    padding: 20px;
+    border: none;
+}
